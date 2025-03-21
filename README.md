@@ -44,8 +44,8 @@ Once all assignments were completed, they were submitted through the official fo
 ## How to Use
 Clone the repository and navigate to the respective assignment directories to review the completed tasks:
 ```bash
-git clone <https://github.com/AbdulSamad94/05_Project_4.git>
-cd <05_Project_4>
+git clone https://github.com/AbdulSamad94/05_Project_4.git
+cd 05_Project_4
 ```
 
 ## Acknowledgment
