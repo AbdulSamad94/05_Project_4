@@ -4,10 +4,10 @@ def guess_the_number():
     print("Welcome to the number guessing game!")
     print(f"Think of a number between {low} and {high}, and I will guess it.")
     input("Press Enter to continue...")
-    guesses = 0  # Initialize guesses outside the loop
+    guesses = 0
     while True:
         guess = (low + high) // 2
-        guesses += 1  # Increment guesses here, before the check
+        guesses += 1
         print(f"Is your number {guess}?")
 
         correct_guess = input(
