@@ -6,7 +6,7 @@ def guess_the_number():
     input("Press Enter to continue...")
     guesses = 0
     while True:
-        guess = (low + high) // 2
+        guess = round((low + high) / 2)
         guesses += 1
         print(f"Is your number {guess}?")
 

@@ -15,7 +15,7 @@ def choose_word():
 
 
 def display(word, guessed_letters):
-    return " ".join(letter if letter in guessed_letters else "_" for letter in word)
+    return " ".join(a if a in guessed_letters else "_" for a in word)
 
 
 def hangman():
@@ -23,9 +23,8 @@ def hangman():
     guessed_letters = set()
     guessed_keys = ""
     attempts = 6
-
+    print(guessed_letters)
     print("Welcome to Hangman! Try to guess the word.")
-
     while attempts > 0:
         print("\n" + display(word, guessed_letters))
         print(f"\nGuessed letters: {",".join(guessed_keys)}")
